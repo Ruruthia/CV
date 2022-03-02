@@ -1,0 +1,83 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{Black}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\usepackage[colorlinks]{hyperref}
+
+\begin{document}
+
+    \name{MARIA WYRZYKOWSKA}
+\tagline{STUDENT }
+
+\personalinfo{%
+    I am a first-year student of Master's Degree in Computer Science at University of Wrocław. I have first IT-related experience in both multicultural, rapidly-changing corporate and fast-paced startup environment. I am looking for more opportunities to further enhance and make use of my skills solving real-life problems. My interests mainly revolve around application of Python and Cloud technologies in Data Science and Machine Learning, but I am also familiar with basics of C, C++ and web development.  
+    Being a fast learner open for new challenges makes me more than eager to get to know new tools and programming languages.
+ \newline \newline
+  \email{maryswyrz@gmail.com}
+  \phone{+48 732 244 034}
+  \location{Wrocław, Poland}
+  \github{https://github.com/Ruruthia}}
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Software Development Internship}{nomagic.ai}{June - September 2021}{Warsaw}
+
+At nomagic.ai, startup developing smart pick-and-place robots, I was responsible for creating custom solution for optimizing parameters of robots' moves based on multi-armed bandit strategies. While researching, implementing, testing and documenting my findings, I focused on maintaining data driven approach and applying best programming practices. 
+
+\divider
+
+\cvevent{IT Managerial Internship}{Procter \& Gamble}{June - September 2020}{Warsaw}
+
+At P\&G I was a member of Google Cloud Platform Operations Team. \\ I successfully completed three main projects:
+\begin{itemize}
+
+\item Managing part of the team during preparation of GCP knowledge management system hosted on Atlassian Confluence for P\&G application teams.
+\item Tailoring ITSM management platform ServiceNow for team's needs: implementing SLAs, altering forms and workflows, preparing interactive dashboards with operational KPIs.
+\item Preparing GCP Composer workflow in Python, SQL and bash used for gathering metadata about GCP utilization across all of the company's projects and presenting insights using interactive Google Data Studio dashboards.
+\end{itemize}
+
+\cvsection{Education}
+
+\cvevent{University of Wrocław, Faculty of Mathematics and Computer Science}{Computer Science, MSc degree, full-time}{February 2022 -- Present}{Wrocław}
+
+\divider
+
+\cvevent{University of Wrocław, Faculty of Mathematics and Computer Science}{Computer Science, BEng degree, full-time}{October 2018 -- February 2022}{Wrocław}
+
+\divider
+
+\cvevent{High School no. 14}{Science profile}{September 2015 -- June 2018}{Wrocław}
+\begin{itemize}
+\item Finalist of 64th Polish Chemistry Olympiad
+% \item Laureate (12th place) of 54th Antoni Swinarski Polish Chemistry Competition
+\end{itemize}
+
+
+\begin{minipage}[t][0pt]{\linewidth}
+\newgeometry{left=1cm,right=1cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=2cm,bottom=1.25cm,footskip=2\baselineskip}
+\center{\it \small 
+I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.
+}
+\end{minipage}
+\clearpage
+\end{document}
